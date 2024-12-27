@@ -4,32 +4,96 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sign-up Form</title>
+    <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div class="container">
-      <div class="section-left"></div>
-      <div class="section-right">
-        <h1 class="title"></h1>
-        <h2 class="subtitle"></h2>
+      <div class="section section-left">
+        <img src="assets/desk.svg" alt="Desk Person Illustration" />
+      </div>
+      <div class="section section-right">
+        <h1 class="title">Welcome</h1>
+        <h2 class="subtitle">
+          This is not a real online service! You know you need something like
+          this in your life to help you realize your deepest dreams. <br />
+          Sign up now to get started.
+        </h2>
 
-        <label for=""></label>
-        <input type="text" />
+        <form action="#" method="post">
+          <div class="form-inputs">
+            <label for="first-name">First Name</label>
+            <input
+              type="text"
+              name="first-name"
+              id="first-name"
+              placeholder="Jane"
+              required
+            />
+          </div>
 
-        <label for=""></label>
-        <input type="text" />
+          <div class="form-inputs">
+            <label for="last-name">Last Name</label>
+            <input
+              type="text"
+              name="last-name"
+              id="last-name"
+              placeholder="Doe"
+              required
+            />
+          </div>
 
-        <label for=""></label>
-        <input type="email" name="" id="" />
+          <div class="form-inputs">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="hello@example.com"
+              required
+            />
+          </div>
 
-        <label for=""></label>
-        <input type="number" name="" id="" />
+          <div class="form-inputs">
+            <label for="phone">Phone</label>
+            <input
+              type="text"
+              name="phone"
+              id="phone"
+              placeholder="0484679436"
+              pattern="^02\d{7}|^04\d{8}"
+              title="Please enter a valide phone number."
+            />
+          </div>
 
-        <label for=""></label>
-        <input type="password" name="" id="" />
+          <div class="form-inputs">
+            <label for="password">Password</label>
+            <input
+              type="password"
+              name="password"
+              id="password"
+              placeholder="**********"
+              pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+              title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters"
+              required
+            />
+          </div>
 
-        <label for=""></label>
-        <input type="password" name="" id="" />
+          <div class="form-inputs">
+            <label for="password-confirm">Confirm Password</label>
+            <input
+              type="password"
+              name="password-confirm"
+              id="password-confirm"
+              placeholder="**********"
+              pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+              title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters"
+              required
+            />
+          </div>
+          <button>Sign Up</button>
+        </form>
+        <p class="sign-in">Already have an account? <a href="#">Sign In</a></p>
       </div>
     </div>
   </body>

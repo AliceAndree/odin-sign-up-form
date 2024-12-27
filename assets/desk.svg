@@ -10,10 +10,10 @@
 			<rect x="63.726" y="51.02" style="fill:#DBDBDB;" width="129.295" height="97.102"/>
 			<rect x="72.07" y="58.541" style="fill:#EBEBEB;" width="112.608" height="82.061"/>
 			<g>
-				<rect x="86.667" y="70.307" style="fill:#FFFFFF;" width="27.18" height="59.603"/>
-				<rect x="122.86" y="70.307" style="fill:#FFFFFF;" width="47.221" height="32.233"/>
-				<rect x="122.86" y="107.671" style="fill:#FFFFFF;" width="22.239" height="22.239"/>
-				<rect x="154.562" y="107.671" style="fill:#FFFFFF;" width="15.518" height="22.239"/>
+				<rect x="86.667" y="70.307" style="fill:#f4f5ff;" width="27.18" height="59.603"/>
+				<rect x="122.86" y="70.307" style="fill:#f4f5ff;" width="47.221" height="32.233"/>
+				<rect x="122.86" y="107.671" style="fill:#f4f5ff;" width="22.239" height="22.239"/>
+				<rect x="154.562" y="107.671" style="fill:#f4f5ff;" width="15.518" height="22.239"/>
 			</g>
 			<circle style="fill:#DBDBDB;" cx="113.89" cy="83.168" r="12.861"/>
 			<polygon style="fill:#DBDBDB;" points="122.86,129.91 160.771,129.91 160.771,91.999 			"/>
@@ -21,10 +21,10 @@
 		<g>
 			<rect x="302.993" y="47.125" style="fill:#EBEBEB;" width="133.016" height="203.958"/>
 			<g>
-				<rect x="310.242" y="55.295" style="fill:#FFFFFF;" width="56.17" height="90.72"/>
-				<rect x="372.591" y="55.295" style="fill:#FFFFFF;" width="56.17" height="90.72"/>
-				<rect x="310.242" y="152.195" style="fill:#FFFFFF;" width="56.17" height="90.72"/>
-				<rect x="372.591" y="152.195" style="fill:#FFFFFF;" width="56.17" height="90.72"/>
+				<rect x="310.242" y="55.295" style="fill:#f4f5ff;" width="56.17" height="90.72"/>
+				<rect x="372.591" y="55.295" style="fill:#f4f5ff;" width="56.17" height="90.72"/>
+				<rect x="310.242" y="152.195" style="fill:#f4f5ff;" width="56.17" height="90.72"/>
+				<rect x="372.591" y="152.195" style="fill:#f4f5ff;" width="56.17" height="90.72"/>
 			</g>
 			<g>
 				<polygon style="fill:#DBDBDB;" points="384.429,47.125 436.009,47.125 436.009,338.922 406.155,338.922 426.994,190.441 				"/>

@@ -1,37 +1,105 @@
-@import "node_modules/modern-normalize/modern-normalize.css";
-
 :root {
-  line-height: 1.5;
+  font-size: 14px;
+  --dark-grey: #261f27;
+  --medium-grey: #483c49;
+  --light-grey: #a5a5a2;
+  --lighter-grey: #dcdde5;
+  --bright-blue: #1576ef;
+  --light-blue: #f4f5ff;
+}
+body {
+  height: 100svh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: radial-gradient(
+    circle,
+    rgba(63, 94, 251, 0.592874649859944) 0%,
+    rgba(252, 70, 107, 0.469625350140056) 100%
+  );
+}
+.container {
+  width: 1200px;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0px 2px 18px 1px rgba(122, 122, 122, 1);
+  background-color: white;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-figure,
-p,
-ol,
-ul {
-  margin: 0;
+.section {
+  width: 50%;
 }
 
-ol[role="list"],
-ul[role="list"] {
-  list-style: none;
-  padding-inline: 0;
+.section-right {
+  padding: 0 75px;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5 {
-  font-size: inherit;
-  font-weight: inherit;
+.title {
+  font-size: 2.5rem;
+  color: var(--dark-grey);
+}
+
+.subtitle {
+  color: var(--light-grey);
+  padding: 20px 0 10px 0;
 }
 
 img {
-  display: block;
-  max-inline-size: 100%;
+  background-color: var(--light-blue);
+  border-radius: 10px 0 0 10px;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+label {
+  color: var(--medium-grey);
+  font-weight: 500;
+}
+
+input {
+  border-radius: 5px;
+  height: 40px;
+  width: 200px;
+  color: var(--medium-grey);
+  font-weight: 300;
+  border: 1.7px solid var(--lighter-grey);
+}
+
+input::placeholder {
+  color: var(--light-grey);
+  font-weight: 300;
+}
+
+.form-inputs {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0;
+}
+
+button {
+  height: 40px;
+  width: 200px;
+  background-color: var(--bright-blue);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  margin: 25px 0 0 0;
+  cursor: pointer;
+}
+
+.sign-in {
+  margin: 5px 0 0 0;
+  color: var(--light-grey);
+}
+
+.sign-in a {
+  color: var(--bright-blue);
+  padding: 0 5px;
+  text-decoration: none;
 }
