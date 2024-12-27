@@ -1,3 +1,4 @@
+@import url(reset.css);
 :root {
   font-size: 14px;
   --dark-grey: #261f27;
