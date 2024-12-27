@@ -1,7 +1,6 @@
 @import url(reset.css);
-@import url(node_modules/modern-normalize/modern-normalize.css);
 
-:root  {
+:root {
   font-size: 14px;
   --dark-grey: #261f27;
   --medium-grey: #483c49;
