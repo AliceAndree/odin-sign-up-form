@@ -76,6 +76,15 @@ input::placeholder {
   font-weight: 300;
 }
 
+input:focus {
+  outline: none;
+  border: 2px solid var(--medium-grey);
+}
+
+input:user-invalid {
+  border: 2px solid red;
+}
+
 .form-inputs {
   display: flex;
   flex-direction: column;
